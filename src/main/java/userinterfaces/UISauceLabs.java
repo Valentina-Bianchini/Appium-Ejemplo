@@ -22,7 +22,7 @@ public class UISauceLabs {
             .located(MobileBy
                     .xpath("//*[@class= 'android.view.ViewGroup' and @content-desc='test-LOGIN']"));
     public static final Target MENU_PRINCIPAL = Target
-            .the("cmenu principal de Home")
+            .the("menu principal de Home")
             .located(MobileBy
                     .AccessibilityId("test-Menu"));
     public static final Target CARRITO = Target
